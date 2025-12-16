@@ -38,7 +38,9 @@
   .contact a { color: var(--highlight); font-weight: bold; }
   footer { text-align: center; padding: 1rem; font-size: .9rem; }
   .toggle-btn { position: fixed; top: 15px; right: 15px; background: var(--highlight); color: #fff; padding: 0.5rem; border-radius: 50%; cursor: pointer; font-size: 1.2rem; z-index: 100; }
- 
+  .certificates { display: ruby-text-container; gap: 5rem; justify-content: center; }
+  .certificates img { width: 200%; max-width: 1000%; height: 100; border-radius: 10px; border: 2px solid var(--highlight); }
+  @media (min-width: 768px) { .certificates img { width: 100%; } }
 </style>
 </head>
 <body data-theme="light">
@@ -55,6 +57,7 @@
         <strong>ALX Africa Trained</strong><br />
         Python • Django • REST APIs • React • Workflow Automation
       </p>
+      <a href="Patrick-Muthii-CV.pdf" class="btn" download>Download CV</a>
     </div>
   </div>
 </header>
@@ -111,6 +114,13 @@
   <h2>ALX Africa Training Highlights</h2>
   <div class="card">
     <p>• Completed structured tech training at <strong>ALX Africa</strong>, a recognized tech skills development organization in Africa.<br /><br />
+    <img src="alx-logo.png" alt="ALX Africa Logo" style="height:30px; vertical-align:middle;" />
+    <a href="https://www.alxafrica.com/" target="_blank">alxafrica.com</a></p>
+  </div>
+  <div class="certificates">
+    <h3>My Certificates</h3>
+    <img src="foundation.png" alt="ALX Foundation Certificate" />
+    <img src="backend.png" alt="ALX Software Development Certificate" />
   </div>
 </section>
 
